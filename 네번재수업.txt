@@ -1,0 +1,26 @@
+heap은 엄청 큰 공간임
+scanner는 위치(주소)는 stack에 저장해놓고 실제는 heap에
+
+메모리 3가지 종류(static, stack, heap)
+static은 프로그램 처음 시작할때마다 생기는것 -> 심장
+stack은 static 시작 이후에 변수같은것들 저장
+heap
+
+객체(Object, Class, instance) : 
+상태(속성, properties) -> 키=180, 몸무게=78kg, 시력=0.5
+동작(Method) -> 춤추기(), 놀기(), 술마시기()
+을 갖고있음
+
+Class는 동작을 갖고있는애임 
+Integer = a;
+하고 a. 찍어보면 밑에 동작이 많이 나옴
+Integer랑 int 둘중에 뭐 쓸지는 선택인데 많이 바꿀 예정이면 Integer 아니면 int
+
+클래스변수
+
+김형민{
+ 이름 = "김형민";
+ 나이 = 20;
+ 잘생겼음=false;
+}
+

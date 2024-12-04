@@ -1,0 +1,53 @@
+JAVA 설치
+JDK
+
+환경변수
+찾기에 path입력
+
+환경변수
+JAVA_HOME : jdk-17
+
+C:\Program Files\Java\jdk-1.8\bin
+C:\Program Files\Java\jdk-17\bin
+
+자바 버전 바꾸기 편하게 변수 등록해서 사용 : JAVA_HOME
+C:\Program Files\Java\%JAVA_HOME%\bin
+->%JAVA_HOME%\bin
+환경변수에서 JAVA_HOME을 편집해서 버전만 바꾸면됨
+
+JAVA 설치 후 
+IDE 설치
+
+보편적으로 사용하는 IDE툴은
+1. Eclipse
+2. IntelliJ
+3. Visual Studio code(VS Code)
+
+우리는 IntelliJ 사용
+IntelliJ
+settings 에서 encoding 검색하고 Transparent native-to-ascii conversion 항상 체크
+코드에 빨간 점은 중간점을 의미함 내맘대로 달고 지울수있다 줄번호클릭해서 할수있음
+
+옵션에서 help edit custom VM options 에
+-Dfile.encoding=UTF-8
+-Dconsole.encoding=UTF-8
+입력하면 UTF-8로 바뀜
+
+
+*.java 파일은 소스코드임
+*.class는 실행파일
+
+프로젝트 구상할 때 패키지를 사용함 왜냐면 편하려고
+패키지 : 동일한 비슷한 기능을 하는 클래스를 모아놓은 것
+
+파일 이름 수정은 항상 refactor 사용해야함
+
+변수 타입 선언 변수명 = 초기값;
+int num = 4;
+상수 선언은 
+Final int A = 3;
+상수로 넣으면 못 바꿈. 상수는 변수랑 구분하기 위해서 보통 대문자로 씀
+
+System.out.println("a*b = " + x);
++는 그냥 붙이는거임 더하는게 아니라
+a*b = 이라는 문자열과 x값을 붙여서 출력
